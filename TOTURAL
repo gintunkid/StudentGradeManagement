@@ -1,0 +1,12 @@
+- Hợp đồng dự án trong file (contracts/StudentGradeManagement.sol):
+    + Nếu muốn chỉnh sửa lại hợp đồng, sau khi chỉnh sửa xong phải "truffle compile" lại
+      hợp đồng để khởi tạo file Json nằm trong mục (build/contracts/StudentGradeManagement.json).
+    + Đưa file (StudentGradeManagement.json) vào trong (client/src) để dự án có thể sử dụng.
+    + Sau đó "truffle migrate" để lấy contractsaddress thay vào từng page của dự án.
+- Account của từng đối tượng nằm ở "useEffect" và "setAccount(accounts[...]);" số đó tương
+ứng với cột index trong Ganache. 
+- Training.js(Phòng đào tạo), Lecturer.js(giảng viên), Student.js(sinh viên)
+- Chạy dự án bằng cách:
+    +B1: Ctrl + ~ (mở terminal)
+    +B2: cd client (di chuyển đến thư mục client)
+    +B3: npm start (chạy ứng dụng)
